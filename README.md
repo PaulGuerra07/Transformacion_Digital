@@ -1,68 +1,29 @@
-# Transformación Digital
+# Transformacion_Digital
 
-Repositorio de la actividad de **Cultura Digital y Sociedad**, Ingeniería en
-Ciencia de Datos e Inteligencia Artificial, UNACH.
+Repositorio de la Actividad Autónoma 5 de Cultura Digital y Sociedad, carrera de Ingeniería en Ciencia de Datos e Inteligencia Artificial (UNACH).
 
-## La importancia de la Transformación Digital en la Ciencia de Datos
+## Importancia de la Transformación Digital en la Ciencia de Datos
 
-La Transformación Digital no consiste solo en pasar los procesos del papel a
-la computadora (eso es digitalización). Implica rediseñar cómo una
-organización crea valor y toma decisiones usando tecnologías como la
-inteligencia artificial, la nube y el análisis de datos.
+La Transformación Digital no consiste solo en pasar los procesos del papel a la computadora, sino en cambiar la forma en que una organización trabaja y toma decisiones, por lo que cada pago con código QR, cada consulta médica en línea o cada clase virtual deja datos que antes no existían. La Ciencia de Datos es la que convierte esos datos en información útil para predecir la demanda, detectar fraudes o ayudar a tiempo a un estudiante, y por eso ambas se necesitan, ya que sin datos digitales no hay análisis y sin análisis los datos no sirven para decidir.
 
-La Ciencia de Datos es el motor de ese cambio:
+## Contenido
 
-- **Convierte datos en decisiones.** Cada pago con código QR, cada consulta
-  médica en línea o cada clase virtual genera datos. Con ellos se puede
-  predecir la demanda, detectar fraudes o identificar a los estudiantes que
-  necesitan apoyo a tiempo.
-- **Necesita la infraestructura digital.** Sin datos digitalizados,
-  almacenados en la nube y disponibles, no hay modelos que entrenar.
-- **Exige responsabilidad.** Mientras más decisiones se automatizan, más
-  importante es que los modelos sean justos, transparentes y respeten la
-  privacidad, como lo exige en Ecuador la Ley Orgánica de Protección de
-  Datos Personales.
-- **Depende del trabajo colaborativo.** Herramientas como Git y GitHub
-  permiten que un equipo trabaje sobre el mismo código, con un historial de
-  cambios y revisiones antes de integrar cada aporte.
-
-En resumen, la Transformación Digital genera los datos y la Ciencia de Datos
-los convierte en conocimiento útil para la sociedad.
-
-## Contenido del repositorio
-
-| Archivo        | Descripción                                                |
-|----------------|------------------------------------------------------------|
-| `promedio.py`  | Función documentada con docstrings que calcula el promedio |
-| `README.md`    | Este archivo                                               |
+- `promedio.py`: función documentada con docstrings que calcula el promedio de una lista de números.
+- `README.md`: este archivo.
 
 ## Uso
 
-Requiere Python 3.8 o superior. No necesita librerías adicionales.
+Requiere Python 3 y no necesita librerías adicionales.
 
 ```bash
 python promedio.py
 ```
 
-Salida:
+Resultado:
 
 ```text
-Calificaciones: [8.5, 9.0, 7.75, 10, 9.25]
+Notas: [8.5, 9, 7.75, 10, 9.25]
 Promedio: 8.90
-```
-
-Para usar la función desde otro archivo:
-
-```python
-from promedio import calcular_promedio
-
-calcular_promedio([8, 9, 10])   # 9.0
-```
-
-Para comprobar los ejemplos incluidos en el docstring:
-
-```bash
-python -m doctest -v promedio.py
 ```
 
 ## Autor
