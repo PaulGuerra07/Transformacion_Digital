@@ -1,6 +1,6 @@
 # Transformacion_Digital
 
-Repositorio de la Actividad Autónoma 5 de Cultura Digital y Sociedad, carrera de Ingeniería en Ciencia de Datos e Inteligencia Artificial (UNACH).
+Repositorio de la asignatura Cultura Digital y Sociedad, carrera de Ingeniería en Ciencia de Datos e Inteligencia Artificial (UNACH).
 
 ## Importancia de la Transformación Digital en la Ciencia de Datos
 
